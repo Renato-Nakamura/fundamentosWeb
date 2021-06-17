@@ -1,0 +1,63 @@
+* {
+    background-color: cornflowerblue;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.textos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.textos h2 {
+    font-size: 30px;
+}
+
+.mg-20 {
+    margin: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+    
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu li {
+    color: blue;
+    display: inline;
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+.fotoPessoal {
+    width: 50vw;
+}
+
+.lado {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contato */
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    
+}
