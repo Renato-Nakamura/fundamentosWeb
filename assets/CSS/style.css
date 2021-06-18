@@ -48,10 +48,6 @@
     width: 50vw;
 }
 
-.lado {
-    display: flex;
-    justify-content: space-between;
-}
 
 /* contato */
 
@@ -60,4 +56,23 @@
     flex-direction: column;
     width: 40vw;
     
+}
+.caixas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gridicons{
+    font-size: 30px;
+    display: flex;
+    
+}
+#footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+
+}
+.space{
+    justify-content: space-between;
 }
